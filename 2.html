@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .container1 {
+        display: flex;
+        flex-direction: row;  
+      }
+      .container2 {
+        display: flex;
+        flex-direction: row-reverse;  
+      }
+      .container3 {
+        display: flex;
+        flex-direction: column;  
+      }
+      .container4 {
+        display: flex;
+        flex-direction: column-reverse;  
+      }
+      .item1 {
+        background: rgb(187, 255, 0);
+        padding: 10px;
+        margin: 10px;
+      }  
+      .item2 {
+        background: rgb(114, 143, 223);
+        padding: 10px;
+        margin: 10px;
+      }  
+      .item3 {
+        background: rgb(0, 255, 242);
+        padding: 10px;
+        margin: 10px;
+      }  
+      .item4 {
+        background: rgb(212, 0, 255);
+        padding: 10px;
+        margin: 10px;
+      }  
+    </style>
+  </head>
+  <body>
+    <h1 class="item1">flex-direction: row</h1>
+<div class="container1">
+  <div class="item1">項目1</div>
+      <div class="item1">項目2</div>
+  <div class="item1">項目3</div>
+</div>
+    <br>
+    <br>
+    <h1 class="item2">flex-direction: row-reverse</h1>
+    <div class="container2">
+        <div class="item2">項目1</div>
+        <div class="item2">項目2</div>
+        <div class="item2">項目3</div>
+    </div>
+    <br>
+    <br>
+    <h1 class="item3">flex-direction: column</h1>
+      <div class="container3">
+        <div class="item3">項目1</div>
+        <div class="item3">項目2</div>
+        <div class="item3">項目3</div>
+    </div>
+    <br>
+    <br>
+    <h1 class="item4">flex-direction: column-reverse</h1> 
+      <div class="container4">
+        <div class="item4">項目1</div>
+        <div class="item4">項目2</div>
+        <div class="item4">項目3</div>
+      </div>
+  </body>
+</html>

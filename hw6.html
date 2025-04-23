@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花卉展示</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .flower-title {
+            background-color: #00ffff;
+            padding: 20px;
+            text-align: left;
+            font-size: 24px;
+            margin: 0;
+        }
+        .flower-image-container {
+            background-color: #00ffff;
+            padding: 10px;
+        }
+        .flower-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="flower-title">TSM</div>
+        <div class="flower-title">SEN</div>
+        <div class="flower-title">PRX</div>
+        
+ 
+        <div class="flower-image-container">
+            <img src="下載.png" alt="TSM" class="flower-image">
+        </div>
+        <div class="flower-image-container">
+            <img src="下載 (1).png" alt="SEN" class="flower-image">
+        </div>
+        <div class="flower-image-container">
+            <img src="下載 (2).png" alt="PRX" class="flower-image">
+        </div>
+    </div>
+</body>
+</html>
